@@ -16,7 +16,7 @@ class Grid1 extends StatelessWidget {
             crossAxisCount: 2,
             crossAxisSpacing: 30,
             mainAxisSpacing: 30,
-            childAspectRatio: 1),
+            childAspectRatio: 2),
         children: [
           Container(
             decoration: BoxDecoration(

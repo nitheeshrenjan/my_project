@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    useInheritedMediaQuery: true,
     home: StackEx(),
   ));
 }
