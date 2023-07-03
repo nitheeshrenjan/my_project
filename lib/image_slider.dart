@@ -2,7 +2,11 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: ImageSlider()));
+  runApp(
+    MaterialApp(
+      home: ImageSlider(),
+    ),
+  );
 }
 
 class ImageSlider extends StatelessWidget {
