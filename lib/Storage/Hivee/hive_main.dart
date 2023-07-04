@@ -22,7 +22,6 @@ class _CRUD_hiveState extends State<CRUD_hive> {
   final taskname = TextEditingController();
 
   // Creating an object of hive
-
   final my_box = Hive.box('todo_box');
 
   @override

@@ -43,16 +43,17 @@ class _HomeState extends State<Home> {
               style: TextStyle(fontSize: 24),
             ),
             ElevatedButton(
-                onPressed: () {
-                  logindata.setBool("firstTimeLogin", true);
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => LoginPage(),
-                    ),
-                  );
-                },
-                child: Text("Logout"))
+              onPressed: () {
+                logindata.setBool("firstTimeLogin", true);
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => LoginPage(),
+                  ),
+                );
+              },
+              child: Text("Logout"),
+            )
           ],
         ),
       ),

@@ -4,7 +4,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'Home.dart';
 
 void main() {
-  runApp(MaterialApp(home: LoginPage()));
+  runApp(
+    MaterialApp(
+      home: LoginPage(),
+    ),
+  );
 }
 
 class LoginPage extends StatefulWidget {
